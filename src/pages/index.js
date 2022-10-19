@@ -36,9 +36,9 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/arabia2.png" />
-              <Card image="/assets/images/arab4.png" />
-              <Card image="/assets/images/arab5.png" />
+              <Card image="/assets/images/arabia2.png"/>
+              <Card image="/assets/images/arab4.png"/>
+              <Card image="/assets/images/arab5.png"/>
             </CardSlider>
           </div>
         </div>
@@ -83,8 +83,8 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/arab6.png" />
-              <Card image="/assets/images/arab7.png" />
+              <Card image="/assets/images/arab6.png"/>
+              <Card image="/assets/images/arab7.png"/>
             </CardSlider>
           </div>
         </div>
@@ -136,6 +136,58 @@ export default function Home() {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className="travel-container__right">
+            <CardSlider>
+              <Card image="/assets/images/arab8.png"/>
+              <Card image="/assets/images/arab2.png"/>
+            </CardSlider>
+          </div>
+        </div>
+        <div className="travel-container">
+          <div className="travel-container__left ula-container">
+            <h3 className="travel-container__title">
+              Riyadh и Al Ula
+            </h3>
+            <div className="travel-container__info info">
+              <h4 className="info__title">
+                однодневная экскурсия
+              </h4>
+              <ul className="info__list">
+                <li className="info__item">
+                  <p className="info__text">
+                    Исследуйте красоту Riyadh и археологическую и культурную жемчужину Саудовской Аравии, Al Ula.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="travel-container__right">
+            <CardSlider>
+              <Card image="/assets/images/riyad.png"/>
+              <Card image="/assets/images/ula1.png"/>
+              <Card image="/assets/images/riyad2.png"/>
+            </CardSlider>
+          </div>
+        </div>
+        <div className="travel-container">
+          <div className="travel-container__left left-deco">
+            <h3 className="travel-container__title left-deco-title">
+              Джидда: невеста Красного моря
+            </h3>
+            <div className="travel-container__info info">
+              <h4 className="info__title left-deco-title">
+                В стоимость включено:
+              </h4>
+              <ul className="info__list">
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    Исследуйте волшебный город Джидда, который когда-то называли «невестой Красного моря», и посетите
+                    некоторые из его главных исторических достопримечательностей.
+                  </p>
+                </li>
+              </ul>
+            </div>
             <div className="travel-container__info info">
               <h4 className="info__title left-deco-title">
                 Приятный бонус каждому туристу в подарок:
@@ -157,8 +209,8 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/arab8.png" />
-              <Card image="/assets/images/arab2.png" />
+              <Card image="/assets/images/jeddah.png"/>
+              <Card image="/assets/images/jiddah.png"/>
             </CardSlider>
           </div>
         </div>
@@ -167,20 +219,20 @@ export default function Home() {
         <h2 className="reson__title section-title">ПОЧЕМУ МЫ?</h2>
         <div className="reason-container container">
           <div className="reason-container__box reason-box">
-            <i class="reason-box__icon bx bx-support"></i>
+            <i className="reason-box__icon bx bx-support"></i>
             <span className="reason-box__text">
               Линия поддержки туристов 24/7
             </span>
           </div>
           <div className="reason-container__box reason-box">
-            <i class="reason-box__icon bx bxs-plane-alt"></i>
+            <i className="reason-box__icon bx bxs-plane-alt"></i>
             <span className="reason-box__text">
-              Национальный перевозчик Uzbekistan Airways
+              Национальный перевозчик все авиакомпании
             </span>
           </div>
           <div className="reason-container__box reason-box">
-            <i class="reason-box__icon bx bxs-user-badge"></i>
-            <span className="reason-box__text">Тур ВСЕ ВКЛЮЧЕНО</span>
+            <i className="reason-box__icon bx bxs-user-badge"></i>
+            <span className="reason-box__text">тур все включено</span>
           </div>
           <div className="reason-container__box reason-box">
             <div className="reason-box-inner">
@@ -188,17 +240,17 @@ export default function Home() {
                 className="reason-ic"
                 src="/assets/icons/click.png"
                 alt="click logo"
-                width="32"
-                height="32"
+                width="512"
+                height="512"
               />
               <img
                 className="reason-ic"
                 src="/assets/icons/payme.png"
                 alt="payme logo"
-                width="32"
-                height="32"
+                width="512"
+                height="512"
               />
-              <i class="reason-icon bx bxs-dollar-circle"></i>
+              <i className="reason-icon bx bxs-dollar-circle"></i>
             </div>
             <span className="reason-box__text">Способ оплаты</span>
           </div>
@@ -217,7 +269,7 @@ export default function Home() {
                 height="25"
               />
               <Link href="#">
-                <a className="contact-wrapper__link">info@humotouroperat.uz.</a>
+                <a className="contact-wrapper__link">info@humotouroperator.uz</a>
               </Link>
             </div>
             <div className="contact-wrapper__holder">
@@ -250,21 +302,21 @@ export default function Home() {
               <li className="social__item">
                 <Link href="https://t.me/Humo_Groupp" target="_blank">
                   <a className="social__link" target="_blank">
-                    <i class="social__icon social-icon-contact bx bxl-telegram"></i>
+                    <i className="social__icon social-icon-contact bx bxl-telegram"></i>
                   </a>
                 </Link>
               </li>
               <li className="social__item">
                 <Link href="https://www.instagram.com/humogroup/">
                   <a className="social__link" target="_blank">
-                    <i class="social__icon social-icon-contact bx bxl-instagram"></i>
+                    <i className="social__icon social-icon-contact bx bxl-instagram"></i>
                   </a>
                 </Link>
               </li>
               <li className="social__item">
                 <Link href="#">
                   <a className="social__link">
-                    <i class="social__icon social-icon-contact bx bxl-facebook"></i>
+                    <i className="social__icon social-icon-contact bx bxl-facebook"></i>
                   </a>
                 </Link>
               </li>

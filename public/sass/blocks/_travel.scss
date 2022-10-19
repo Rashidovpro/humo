@@ -23,6 +23,38 @@
   justify-content: center;
 }
 
+.ula-container{
+  position: relative;
+
+  &::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    content: '';
+    background-image: url("../../assets/icons/travel.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.ula-container::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-image: url("../../assets/icons/before.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 400px;
+  height: 300px;
+  content: '';
+  opacity: 0.7;
+}
+
 .left-arabic {
   background-image: url(../../assets/icons/arabic-logo.webp),
     url(../../assets/icons/plane.svg);

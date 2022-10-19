@@ -47,6 +47,10 @@
 .reason-box__text {
   font-size: 1.5em;
   color: $dark;
+  
+  &:first-letter{
+    text-transform: uppercase;
+  }
 }
 
 .reason-box-inner {
