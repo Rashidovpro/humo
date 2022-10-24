@@ -37,9 +37,9 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/arabia2.png"/>
-              <Card image="/assets/images/arab4.png"/>
-              <Card image="/assets/images/arab5.png"/>
+              <Card image="/assets/images/arabia2.png" />
+              <Card image="/assets/images/arab4.png" />
+              <Card image="/assets/images/arab5.png" />
             </CardSlider>
           </div>
         </div>
@@ -84,8 +84,8 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/arab6.png"/>
-              <Card image="/assets/images/arab7.png"/>
+              <Card image="/assets/images/arab6.png" />
+              <Card image="/assets/images/arab7.png" />
             </CardSlider>
           </div>
         </div>
@@ -140,24 +140,30 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/arab8.png"/>
-              <Card image="/assets/images/arab2.png"/>
+              <Card image="/assets/images/arab8.png" />
+              <Card image="/assets/images/arab2.png" />
             </CardSlider>
           </div>
         </div>
         <div className="travel-container">
           <div className="travel-container__left ula-container">
-            <h3 className="travel-container__title">
-              Riyadh и Al Ula
-            </h3>
+            <h3 className="travel-container__title">Таиф</h3>
             <div className="travel-container__info info">
-              <h4 className="info__title">
-                однодневная экскурсия
-              </h4>
+              <h4 className="info__title">однодневная экскурсия</h4>
               <ul className="info__list">
                 <li className="info__item">
                   <p className="info__text">
-                    Исследуйте красоту Riyadh и археологическую и культурную жемчужину Саудовской Аравии, Al Ula.
+                    Таифа Посетители путешествуют по извилистой дороге через
+                    горы, минуя фруктовые рынки, розовые фермы и глубокие
+                    долины, пока не достигнут плато, на котором расположен Таиф.
+                    Таиф, который часто называют Городом роз, известен
+                    знаменитыми ароматными цветами, которые растут в окружающих
+                    вади и горах. Он также известен как неофициальная летняя
+                    столица Саудовской Аравии. Из-за своей высоты Таиф является
+                    прохладным спасением от жары. И хотя розы цветут в апреле,
+                    город по-настоящему расцветает в августе, когда в самом
+                    разгаре культурный фестиваль Сук Оказ и фестиваль верблюдов
+                    наследного принца.
                   </p>
                 </li>
               </ul>
@@ -165,9 +171,79 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/riyad.png"/>
-              <Card image="/assets/images/ula1.png"/>
-              <Card image="/assets/images/riyad2.png"/>
+              <Card image="/assets/images/yanbu.png" />
+              <Card image="/assets/images/yanbu1.png" />
+            </CardSlider>
+          </div>
+        </div>
+        <div className="travel-container">
+          <div className="travel-container__left left-deco">
+            <h3 className="travel-container__title left-deco-title">Аль-Ула</h3>
+            <div className="travel-container__info info">
+              <h4 className="info__title left-deco-title">
+                однодневная экскурсия
+              </h4>
+              <ul className="info__list">
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    В мире мало мест, где вы все еще можете почувствовать себя
+                    настоящим исследователем, исследующим неизведанное. Во
+                    многих исторических местах иллюзия открытия быстро
+                    разрушается джунглями палок для селфи. Но в Аль-Уле, где
+                    находится первый объект Всемирного наследия ЮНЕСКО в
+                    Саудовской Аравии, глубоко в пустыне в северо-западном
+                    регионе страны, вы все еще можете разыграть свою фантазию о
+                    том, чтобы на один день стать бесстрашным археологом.
+                    Несмотря на все достоинства этого места, занимающего первое
+                    место в мире — древние гробницы, которые остались наследием
+                    7000-летней человеческой цивилизации, потрясающие
+                    естественные скальные образования и каньоны, множество
+                    возможностей для приключенческих видов спорта и
+                    ультрасовременные художественные инсталляции — Аль-Ула
+                    остается в значительной степени вне мирового туристического
+                    радара, предоставляя вам достаточно места и времени для
+                    размышлений о монументальности его красивых пустынных
+                    ландшафтов.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="travel-container__right">
+            <CardSlider>
+              <Card image="/assets/images/ula1.png" />
+              <Card image="/assets/images/ula.png" />
+            </CardSlider>
+          </div>
+        </div>
+        <div className="travel-container">
+          <div className="travel-container__left ula-container">
+            <h3 className="travel-container__title">Эр-Рияда</h3>
+            <div className="travel-container__info info">
+              <h4 className="info__title">однодневная экскурсия</h4>
+              <ul className="info__list">
+                <li className="info__item">
+                  <p className="info__text">
+                    Сочетание средневековья и тысячелетий в Эр-Рияде создает
+                    привлекательный культурный союз, в котором можно проследить
+                    первые корни Аравии и где можно предвидеть ее смелое
+                    будущее. Увлекательную многовековую историю города можно
+                    найти в его атмосферных базарах, привлекательных музеях и
+                    древней архитектуре, но это также и современный мегаполис со
+                    сверкающими небоскребами и растущей сценой современного
+                    искусства. Зимние месяцы — идеальное время для посещения
+                    Эр-Рияда. Хотя средние высокие температуры летом могут
+                    достигать 44 градусов по Цельсию, максимальная температура в
+                    декабре и январе составляет 20 градусов.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="travel-container__right">
+            <CardSlider>
+              <Card image="/assets/images/riyad.png" />
+              <Card image="/assets/images/riyad2.png" />
             </CardSlider>
           </div>
         </div>
@@ -183,8 +259,9 @@ export default function Home() {
               <ul className="info__list">
                 <li className="info__item left-deco-item">
                   <p className="info__text left-deco-text">
-                    Исследуйте волшебный город Джидда, который когда-то называли «невестой Красного моря», и посетите
-                    некоторые из его главных исторических достопримечательностей.
+                    Исследуйте волшебный город Джидда, который когда-то называли
+                    «невестой Красного моря», и посетите некоторые из его
+                    главных исторических достопримечательностей.
                   </p>
                 </li>
               </ul>
@@ -210,8 +287,37 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/jeddah.png"/>
-              <Card image="/assets/images/jiddah.png"/>
+              <Card image="/assets/images/jeddah.png" />
+              <Card image="/assets/images/jiddah.png" />
+            </CardSlider>
+          </div>
+        </div>
+        <div className="travel-container">
+          <div className="travel-container__left ula-container">
+            <h3 className="travel-container__title">Янбу</h3>
+            <div className="travel-container__info info">
+              <h4 className="info__title">однодневная экскурсия</h4>
+              <ul className="info__list">
+                <li className="info__item">
+                  <p className="info__text">
+                    Янбу, расположенный в провинции Медина, является вторым по
+                    величине портовым городом на Красном море после Джидды. Он
+                    также является одним из старейших морских портов на Красном
+                    море. Он служит главным портом священного города Медины.
+                    Янбу не только играет важную роль в экономике страны, но и
+                    имеет историческое значение как крупный порт для приема
+                    паломников. Традиционно экономика Янбу была связана с
+                    маршрутом паломничества, торговлей и экспортом фиников. Порт
+                    расширяется, чтобы снять нагрузку с порта Джидды.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="travel-container__right">
+            <CardSlider>
+              <Card image="/assets/images/yanbu.png" />
+              <Card image="/assets/images/yanbu1.png" />
             </CardSlider>
           </div>
         </div>
@@ -270,7 +376,9 @@ export default function Home() {
                 height="25"
               />
               <Link href="#">
-                <a className="contact-wrapper__link">info@humotouroperator.uz</a>
+                <a className="contact-wrapper__link">
+                  info@humotouroperator.uz
+                </a>
               </Link>
             </div>
             <div className="contact-wrapper__holder">
