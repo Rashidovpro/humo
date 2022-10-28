@@ -11,21 +11,21 @@ export default function Hero() {
           <li className="social__item">
             <Link href="https://t.me/Humo_Groupp" target="_blank">
               <a className="social__link" target="_blank">
-                <i class="social__icon bx bxl-telegram"></i>
+                <i className="social__icon bx bxl-telegram"></i>
               </a>
             </Link>
           </li>
           <li className="social__item">
             <Link href="https://www.instagram.com/humogroup/">
               <a className="social__link" target="_blank">
-                <i class="social__icon bx bxl-instagram"></i>
+                <i className="social__icon bx bxl-instagram"></i>
               </a>
             </Link>
           </li>
           <li className="social__item">
             <Link href="#">
               <a className="social__link">
-                <i class="social__icon bx bxl-facebook"></i>
+                <i className="social__icon bx bxl-facebook"></i>
               </a>
             </Link>
           </li>
