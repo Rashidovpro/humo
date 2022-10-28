@@ -243,8 +243,8 @@ export default function Home() {
           <div className="travel-container__right">
             <CardSlider>
               <Card image="/assets/images/riyad2.png" />
-              <Card image="/assets/images/riyadh.jpeg" />
-              <Card image="/assets/images/riyadh2.jpeg" />
+              <Card image="/assets/images/riyadh.png" />
+              <Card image="/assets/images/riyadh2.png" />
             </CardSlider>
           </div>
         </div>
