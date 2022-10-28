@@ -171,8 +171,8 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/yanbu.png" />
-              <Card image="/assets/images/yanbu1.png" />
+              <Card image="/assets/images/taif.png" />
+              <Card image="/assets/images/taif2.png" />
             </CardSlider>
           </div>
         </div>
@@ -242,8 +242,9 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/riyad.png" />
               <Card image="/assets/images/riyad2.png" />
+              <Card image="/assets/images/riyadh.jpeg" />
+              <Card image="/assets/images/riyadh2.jpeg" />
             </CardSlider>
           </div>
         </div>
